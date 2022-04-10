@@ -320,15 +320,6 @@ vendor/etc/display/qdcm_calib_data_mipi_mot_video_dummy_qhd.json
 vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_with_DSC.json
 vendor/etc/display/qdcm_calib_data_nt36672e_lcd_video_mode_dsi_novatek_panel_without_DSC.json
 
-# ESE Powermanagement
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
-vendor/lib64/libesepmconfig.so
-vendor/lib64/libesesbprovision.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
-
 # Fingerprint (fpc)
 vendor/bin/hw/fpc_ident
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
