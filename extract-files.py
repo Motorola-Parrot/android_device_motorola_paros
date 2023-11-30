@@ -48,6 +48,7 @@ module = ExtractUtilsModule(
     lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
     add_generated_carriersettings=True,
+    add_firmware_proprietary_file=True,
     extract_fns=extract_fns,
 )
 
