@@ -329,6 +329,11 @@ vendor/lib64/libesesbprovision.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
+# Euicc
+product/app/EuiccPartnerApp/EuiccPartnerApp.apk;PRESIGNED
+product/etc/permissions/privapp-permissions-com.google.android.euicc.xml
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+
 # Fingerprint (fpc)
 vendor/bin/hw/fpc_ident:vendor/bin/fpc_ident
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
