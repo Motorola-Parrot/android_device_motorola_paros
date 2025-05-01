@@ -337,6 +337,11 @@ vendor/etc/libnfc-SN220T.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 
+# Properties (SKU)
+product/etc/motorola/props/hardware.sku.XT2437-1.prop:product/etc/hardware.sku.XT2437-1.prop
+product/etc/motorola/props/hardware.sku.XT2437-2.prop:product/etc/hardware.sku.XT2437-2.prop
+product/etc/motorola/props/hardware.sku.XT2437-3.prop:product/etc/hardware.sku.XT2437-3.prop
+
 # Public libraries
 system_ext/etc/public.libraries-qti.txt
 vendor/etc/public.libraries.txt
