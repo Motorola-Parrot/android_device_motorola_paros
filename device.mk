@@ -40,6 +40,12 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/*.rc),\
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/bin/*.sh),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/bin/$(notdir $f)))
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworksResParos \
+    LineageSystemUIParos \
+    SystemUIResParos
+
 # NFC
 TARGET_USES_NXP_NFC := true
 
