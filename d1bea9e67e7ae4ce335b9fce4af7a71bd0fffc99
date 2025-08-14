@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e76eb2a7_183a1675",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000005
+      },
+      "writtenOn": "2025-08-14T13:31:01Z",
+      "side": 1,
+      "message": "Imported in common tree.",
+      "revId": "d1bea9e67e7ae4ce335b9fce4af7a71bd0fffc99",
+      "serverId": "10b47cd0-ef45-46be-b9f3-8729e8c6cfd0"
+    }
+  ]
+}
