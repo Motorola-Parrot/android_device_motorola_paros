@@ -23,6 +23,11 @@ PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xxxhdpi xhdpi
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oem.fingerprint2.sh \
+    init.mmi.overlay.rc
+
 # Screen
 TARGET_SCREEN_DENSITY := 400
 
@@ -33,6 +38,15 @@ PRODUCT_SHIPPING_API_LEVEL := 34
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# VINTF
+ODM_MANIFEST_SKUS += n dn ne dne
+ODM_MANIFEST_N_FILES := \
+    $(DEVICE_PATH)/configs/vintf/sku/manifest_n.xml \
+    device/motorola/sm6450-common/configs/vintf/manifest_parrot_ss.xml
+ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_dn.xml
+ODM_MANIFEST_NE_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_ne.xml
+ODM_MANIFEST_DNE_FILES := $(DEVICE_PATH)/configs/vintf/sku/manifest_dne.xml
 
 # Inherit from motorola sm6450-common
 $(call inherit-product, device/motorola/sm6450-common/common.mk)
