@@ -28,6 +28,9 @@ PRODUCT_PACKAGES += \
     init.oem.fingerprint2.sh \
     init.mmi.overlay.rc
 
+# NFC
+TARGET_USES_NXP_NFC := true
+
 # Screen
 TARGET_SCREEN_DENSITY := 400
 
