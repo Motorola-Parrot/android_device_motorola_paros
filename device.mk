@@ -31,6 +31,12 @@ PRODUCT_PACKAGES += \
 # NFC
 TARGET_USES_NXP_NFC := true
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResDevice \
+    SettingsResDevice \
+    SystemUIResDevice
+
 # Screen
 TARGET_SCREEN_DENSITY := 400
 
