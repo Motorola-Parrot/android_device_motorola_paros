@@ -1,0 +1,14 @@
+qca_cld3_qca6750.ko
+aw87xxx_dlkm.ko
+aw882xx_dlkm.ko
+touchscreen_mmi.ko
+ili9882_mmi.ko
+focaltech_0flash_v2_mmi.ko
+sx937x_sar.ko
+stk501xx_sar.ko
+dio8015.ko
+leds_aw99703.ko
+ktd3136_bl.ko
+nxp-nci.ko
+fpc1020_mmi.ko
+goodix_fod_mmi.ko
